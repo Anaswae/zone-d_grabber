@@ -89,7 +89,7 @@ global $G;
 global $P;
 global $end;
 global $preg;
-echo "\nMasukan ID Attacker\nEx:https://zone-d.org/attacker/id/573\n\nId=>> ";
+echo "\nMasukan ID Attacker\nhttps://zone-d.org/attacker/id/573\nEx: 573\n\nId=>> ";
   $idatt = trim(fgets(STDIN));
   $mirror = "https://zone-d.org/attacker/id";
   $pausi = $preg['attacker1'];
